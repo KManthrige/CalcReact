@@ -1,0 +1,32 @@
+.title {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 30px;
+    height: 65px;
+    width: 190px;
+}
+
+.data {
+    border: none;
+    font-size: 25px;
+}
+
+.result {
+    border: none;
+    font-size: 25px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 45px 45px 45px 45px;
+    grid-gap: 15px;
+    font-size: 25px;
+    margin: 30px;
+}
+
